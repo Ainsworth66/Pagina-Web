@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #020910;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+h1 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+h2 {
+    border-bottom: 1px solid #ff0000d0;
+    padding-bottom: 5px;
+}
+
+.introduction {
+    padding: 20px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+article, aside {
+    flex: 1;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+ul li ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+p {
+    margin: 20px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #00f7ff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
+body {
+    background-color: #f0f8ff; 
+}
+
+
+.main-nav {
+    background-color: #333; 
+    overflow: hidden;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav ul li {
+    float: left;
+}
+
+.main-nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.main-nav ul li a:hover {
+    background-color: #575757; 
+}
+
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.header-title {
+    color: #2e8b57; 
+}
+
+.intro-text {
+    color: #6a5acd; 
+}
+
+.intro-text {
+    font-size: 18px;
+}
+
+.author-info {
+    font-size: 16px;
+}
+
+
+#artist-monet {
+    font-family: 'Georgia', serif;
+}
+
+#artist-degas {
+    font-family: 'Arial', sans-serif;
+}
+
+#artist-pissarro {
+    font-family: 'Courier New', monospace;
+}
+
+#artist-renoir {
+    font-family: 'Times New Roman', serif;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+table thead th {
+    background-color: #6495ed; 
+    color: white;
+    padding: 10px;
+}
+
+table tbody td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+.topics-list ul {
+    margin-left: 20px;
+}
+
+.artists-list {
+    margin-left: 20px;
+}
+
+.techniques-list {
+    margin-left: 20px;
+}
+
+
+a {
+    color: #0000ee; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
